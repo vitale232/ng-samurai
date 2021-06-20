@@ -8,7 +8,8 @@
     "format": "prettier src/**/*.{ts,json,md} --write",
     "format:test": "prettier src/**/*.{ts,json,md} --list-different",
     "test": "jest --collectCoverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepare": "npm run build"
   },
   "husky": {
     "hooks": {
